@@ -1,0 +1,10 @@
+@media(max-width: 710px){
+    .background-top{
+        top: -604px;
+        left: -752px;
+    }
+    .background-bottom{
+        bottom: -619px;
+        right: -745px;
+    }
+}

@@ -1,0 +1,106 @@
+body{
+    background-color: var(--primary-soft);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-top{
+    position: absolute;
+    background: url(../images/bg-pattern-top.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 978px;
+    width: 978px;
+    top: -528px;
+    left: -328px;
+}
+
+.background-bottom{
+    position: absolute;
+    background: url(../images/bg-pattern-bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 978px;
+    width: 978px;
+    bottom: -665px;
+    right: -267px;
+}
+
+.card{
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    width: 350px;
+    height: 375px;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card .image-profile{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 75px;
+
+}
+
+.card .info-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card .info-profile .name-id{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 16px;
+}
+
+.card .info-profile .name-id .name{
+    font-size: 18px;
+}
+
+.card .info-profile .name-id .id-number{
+    font-size: 17px;
+    padding-left: 9px;
+    color: var(--primary-high);
+}
+
+.card .info-profile .city{
+    font-size: 14px;
+    padding-top: 6px;
+    color: var(--primary-high);
+}
+
+.card .info-social .description-social{
+    font-size: 12px;
+    text-align: center;
+}
+
+.card .info-social{
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    border-top: 1px solid hsl(225, 3%, 76%);
+}
+
+ .social{
+    text-align: center;
+    padding-top: 26px;
+}
+
+.card .info-social .description-social{
+    padding-top: 4px;
+    color: var(--primary-high);
+}
